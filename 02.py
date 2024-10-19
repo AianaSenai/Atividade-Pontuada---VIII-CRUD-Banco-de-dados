@@ -75,15 +75,18 @@ def excluir_funcionario(cpf):
 
 def menu():
     while True:
-        print("\n=== RH System ===")
-        print("1 - Adicionar funcionário")
-        print("2 - Consultar um funcionário")
-        print("3 - Atualizar os dados de um funcionário")
-        print("4 - Excluir um funcionário")
-        print("5 - Listar todos os funcionários")
-        print("0 - Sair do sistema")
+        print("""          ======= RH System ======= 
+----------------------------------------------
+|  1 - Adicionar funcionário                 |
+|  2 - Consultar um funcionário              |
+|  3 - Atualizar os dados de um funcionário  |
+|  4 - Excluir um funcionário                |
+|  5 - Listar todos os funcionários          |
+|  0 - Sair do sistema                       |
+----------------------------------------------              
+              """)
 
-        opcao = input("Escolha uma opção: ")
+        opcao = input("\nEscolha uma opção: ")
 
         if opcao == '1':
             os.system("cls || clear")
