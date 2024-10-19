@@ -1,3 +1,6 @@
+#Alunas: Jamile e Aiana
+#Turma: G93313
+
 import os
 from sqlalchemy import create_engine, Column, String, Integer, Float
 from sqlalchemy.orm import sessionmaker, declarative_base
